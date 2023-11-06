@@ -81,6 +81,7 @@ public class Club {
 			}else {
 				throw new NoEstaPreparado();
 			}
+			break;
 		}
 		return numeroDeInscripcion;
 	}
